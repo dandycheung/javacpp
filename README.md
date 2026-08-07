@@ -26,27 +26,27 @@ We can also have everything downloaded and installed automatically with:
   <dependency>
     <groupId>org.bytedeco</groupId>
     <artifactId>javacpp</artifactId>
-    <version>1.5.13</version>
+    <version>1.5.14</version>
   </dependency>
 ```
 
  * Gradle (inside the `build.gradle.kts` or `build.gradle` file)
 ```groovy
   dependencies {
-    implementation("org.bytedeco:javacpp:1.5.13")
+    implementation("org.bytedeco:javacpp:1.5.14")
   }
 ```
 
  * Leiningen (inside the `project.clj` file)
 ```clojure
   :dependencies [
-    [org.bytedeco/javacpp "1.5.13"]
+    [org.bytedeco/javacpp "1.5.14"]
   ]
 ```
 
  * sbt (inside the `build.sbt` file)
 ```scala
-  libraryDependencies += "org.bytedeco" % "javacpp" % "1.5.13"
+  libraryDependencies += "org.bytedeco" % "javacpp" % "1.5.14"
 ```
 
 Another option available to Gradle users is [Gradle JavaCPP](https://github.com/bytedeco/gradle-javacpp), and similarly for Scala users there is [SBT-JavaCPP](https://github.com/bytedeco/sbt-javacpp).
